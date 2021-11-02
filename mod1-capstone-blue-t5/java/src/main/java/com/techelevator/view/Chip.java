@@ -1,0 +1,17 @@
+package com.techelevator.view;
+
+import java.math.BigDecimal;
+import java.text.NumberFormat;
+
+public class Chip extends Item {
+    public Chip(String name, BigDecimal price, String slot) {
+        super(name, price, slot);
+    }
+
+    @Override
+    public String toString() {
+        return "Crunch Crunch, Yum! \n" +
+                "Purchased " + getName() +
+                " for " + NumberFormat.getCurrencyInstance().format(getPrice());
+    }
+}
