@@ -1,4 +1,4 @@
-#Virtual Vending Machine Application
+# Virtual Vending Machine Application
 
 This was the first capstone project in the Tech Eelvator Java program.
 
